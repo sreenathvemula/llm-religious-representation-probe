@@ -12,8 +12,7 @@ culturally contested.
 > RLHF response), with non-parametric bootstrap significance testing, run over five
 > open-weight models.
 
-This is **a measurement project, not an advocacy project.** It does not claim which
-view of any religious figure is "correct." It quantifies *where a model sits* in a
+This is **a measurement project.** It quantifies *where a model sits* in a
 semantic space defined by two human-authored anchor sets, how that position moves when
 you intervene at different layers, and how stable it is under adversarial context.
 
@@ -104,12 +103,11 @@ Five context framings are tested at each RAG stage: `orthodox_long`, `orthodox_s
 
 ## Generalizing beyond this case study
 
-The framework takes a `target entity` and two `attribute sets` as input — nothing about
-it is specific to Christianity. The same probe answers, for any contested figure or idea:
+The framework takes a `target entity` and two `attribute sets` as input. The same probe must be extended for any contested figure or idea:
 
-- *Muhammad, Buddha, Krishna, Guru Nanak* — does a model encode each as unique, or
+- *Muhammad, Buddha, Krishna* — does a model encode each as unique, or
   flatten them toward a generic "religious figure" centroid?
-- *Political / ideological terms* — capitalism vs. socialism, etc.
+- *Political / ideological terms* — capitalism vs. socialism, right vs. left vs. central wings, etc.
 - *Demographic bias* — the original WEAT use case (career/gender, name/race).
 
 Swapping the case study is a matter of editing the two attribute lists at the top of
